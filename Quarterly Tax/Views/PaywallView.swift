@@ -56,7 +56,7 @@ struct PaywallView: View {
             featureRow("target", "Safe Harbor precision engine", "Real compliance math: 90% / 100% / 110% rules + $1,000 exemption, instead of a 30% guess.")
             featureRow("camera.viewfinder", "Payment proof vault", "Photos + confirmation numbers, unlimited entries.")
             featureRow("doc.badge.arrow.up", "Tax Proof Pack PDF", "Audit-ready export of every payment.")
-            featureRow("square.stack.3d.up.fill", "Full widget + Dynamic Island", "Deadline and jar progress on your Lock Screen.")
+            featureRow("square.stack.3d.up.fill", "Full Lock Screen widget", "Deadline countdown plus your jar progress, always one glance away.")
             featureRow("chart.line.uptrend.xyaxis", "Income jump warnings", "Get alerted when a big income change moves your target.")
             featureRow("calendar.badge.clock", "Multi-year archive", "Keep every year's record.")
         }
