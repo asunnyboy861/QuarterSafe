@@ -1,0 +1,36 @@
+{
+  "taxYear": 2026,
+  "version": "2026.1",
+  "reviewedDate": "2026-10-02",
+  "seTax": { "rate": 0.153, "netEarningsFactor": 0.9235, "ssWageBase": 184500 },
+  "standardDeduction": { "single": 16100, "marriedJoint": 32200, "hoh": 24150 },
+  "bracketsSingle": [
+    { "upTo": 11925, "rate": 0.10 }, { "upTo": 48475, "rate": 0.12 },
+    { "upTo": 103350, "rate": 0.22 }, { "upTo": 197300, "rate": 0.24 },
+    { "upTo": 250525, "rate": 0.32 }, { "upTo": 626350, "rate": 0.35 },
+    { "upTo": null, "rate": 0.37 }
+  ],
+  "bracketsMarriedJoint": [
+    { "upTo": 23850, "rate": 0.10 }, { "upTo": 96950, "rate": 0.12 },
+    { "upTo": 206700, "rate": 0.22 }, { "upTo": 394600, "rate": 0.24 },
+    { "upTo": 501050, "rate": 0.32 }, { "upTo": 751600, "rate": 0.35 },
+    { "upTo": null, "rate": 0.37 }
+  ],
+  "bracketsHoh": [
+    { "upTo": 17000, "rate": 0.10 }, { "upTo": 64850, "rate": 0.12 },
+    { "upTo": 103350, "rate": 0.22 }, { "upTo": 197300, "rate": 0.24 },
+    { "upTo": 250500, "rate": 0.32 }, { "upTo": 626350, "rate": 0.35 },
+    { "upTo": null, "rate": 0.37 }
+  ],
+  "safeHarbor": { "currentYearPct": 0.90, "priorYearPct": 1.00, "priorYearPctHighAGI": 1.10, "highAGIThreshold": 150000, "smallBalanceException": 1000 },
+  "federalDeadlines": {
+    "q1": "2026-04-15", "q2": "2026-06-15", "q3": "2026-09-15", "q4": "2027-01-15"
+  },
+  "otherDeadlines": {
+    "forms1099": "2026-02-02",
+    "annualFiling": "2026-04-15",
+    "extensionFiling": "2026-10-15"
+  },
+  "federalHolidays": ["2026-01-01","2026-01-19","2026-02-16","2026-05-25","2026-06-19","2026-07-03","2026-09-07","2026-10-12","2026-11-11","2026-11-26","2026-12-25"],
+  "stateTable": "states-2026.json"
+}

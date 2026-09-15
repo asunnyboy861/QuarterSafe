@@ -1,0 +1,17 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+.DS_Store
+
+# Confidential workflow files (never push)
+.env
+keytext*.md
+COMPETITOR_REPORT.md
+
+# Archives
+*.ipa
+*.dSYM.zip
+*.dSYM
